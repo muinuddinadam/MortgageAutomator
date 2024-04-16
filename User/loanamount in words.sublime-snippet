@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[[showif %%rawloantype%%=0]][[calc %%loanamount%%|D0]][[/]] AND NO/100 DOLLARS (%%loanamount%%)[[/]][[showif %%rawloantype%%=1]][[calc %%dconstructiontotal%%|D0]][[/]] AND NO/100 DOLLARS (%%dconstructiontotal%%)[[/]][[showif %%rawloantype%%=2]][[calc %%loanamount%%|D0]][[/]] AND NO/100 DOLLARS (%%loanamount%%)[[/]][[showif %%rawloantype%%=3]][[calc %%dconstructiontotal%%|D0]][[/]] AND NO/100 DOLLARS (%%dconstructiontotal%%)[[/]]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>loanamountword</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

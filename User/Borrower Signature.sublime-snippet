@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<p><strong><u>BORROWER(S):</u></strong>[[foreach allclientsinfo as aci]][[showif %%aci.clientiscorporation%%=1]]<br></p>
+<table width="100%" nobr="true">
+	<tr>
+		<td width="100%">%%aci.name%%, A %%aci.vestingname%%<br><br>[[foreach %%aci.thiscorpclientshareholders%% as share]][[showif %%share.shareholdercustomsignor%%=1]]</td>
+	</tr>
+	<tr>
+		<td width="35%">By: _________________________</td>
+		<td width="10%"></td>
+		<td width="35%">_________________________</td>
+	</tr>	
+	<tr>
+		<td width="35%">Name: %%share.corpclientshareholdername%%<br>Title: %%share.dshareholdertype%%</td>
+		<td width="10%"></td>
+		<td width="35%" >Date: </td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+	<tr>
+		<td>[[/]][[/]]</td>
+	</tr>
+</table>
+<p>[[/]][[showif %%aci.clientiscorporation%%=0]]</p>
+<table width="100%" nobr="true">
+	<tr>
+		<td width="35%">By: _________________________</td>
+	</tr>
+	<tr>
+		<td width="35%">%%aci.name%%, An individual</td>
+	</tr>
+	<tr>
+		<td></td>
+	</tr>
+</table>
+<p>[[/]][[/]]</p>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>clientsig</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
