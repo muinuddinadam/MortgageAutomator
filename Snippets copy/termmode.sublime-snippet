@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
-[[showif termmode=0]]Closed[[/]][[showif termmode=1]]Closed Variable[[/]][[showif termmode=2]]Closed then Open[[/]][[showif termmode=3]]Open[[/]][[showif termmode=4]]Minimum then Open[[/]]
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>%%termmode</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
