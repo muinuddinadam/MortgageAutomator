@@ -1,9 +1,0 @@
-<snippet>
-	<content><![CDATA[
- style="border-bottom: .5px solid #000000;"
-]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>%%border.b</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
-</snippet>
