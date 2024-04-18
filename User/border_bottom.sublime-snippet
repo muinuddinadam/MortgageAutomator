@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+border-bottom:0.5px solid #000
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>b.bottom</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

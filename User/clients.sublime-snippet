@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+[[foreach allclientsinfo as client]][[showif %%client.counter%%>1]] and [[/]]%%client.name%%[[/]]
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>printclients</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
