@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+[[showif %%rawmainclientcorptype%%=1]]Corporation[[/]]
+[[showif %%rawmainclientcorptype%%=2]]GP[[/]]
+[[showif %%rawmainclientcorptype%%=3]]LLC - Member Managed[[/]]
+[[showif %%rawmainclientcorptype%%=4]]LLC - Manager Managed[[/]]
+[[showif %%rawmainclientcorptype%%=5]]LP[[/]]
+[[showif %%rawmainclientcorptype%%=7]]PLLC[[/]]
+[[showif %%rawmainclientcorptype%%=9]]Trust[[/]]
+[[showif %%rawmainclientcorptype%%=12]]Inc.[[/]]
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>%%mainclientcorptypes</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
